@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Omar Gamal Fetyan — Full-stack developer &amp; SOC analyst</title>
+<meta name="description" content="Omar Gamal Fetyan builds web applications and monitors them for attacks. Full-stack developer and junior SOC analyst based in Cairo, Egypt.">
+<link rel="canonical" href="https://omargamalfetyan.vercel.app/" />
+<meta name="author" content="Omar Gamal Fetyan" />
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="Omar Gamal Fetyan, full-stack developer, SOC analyst, cybersecurity, React, Node.js, Splunk, Cairo, Egypt" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://omargamalfetyan.vercel.app/" />
+<meta property="og:title" content="Omar Gamal Fetyan — Full-stack developer & SOC analyst" />
+<meta property="og:description" content="Full-stack developer and junior SOC analyst in Cairo, Egypt. I build web applications and monitor them for attacks." />
+<meta property="og:image" content="https://omargamalfetyan.vercel.app/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:locale" content="en_US" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Omar Gamal Fetyan — Full-stack developer & SOC analyst" />
+<meta name="twitter:description" content="Full-stack developer and junior SOC analyst in Cairo, Egypt. I build web applications and monitor them for attacks." />
+<meta name="twitter:image" content="https://omargamalfetyan.vercel.app/og-image.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Omar Gamal Fetyan",
+  "url": "https://omargamalfetyan.vercel.app/",
+  "jobTitle": "Full-stack Developer & SOC Analyst",
+  "address": { "@type": "PostalAddress", "addressLocality": "Cairo", "addressCountry": "EG" },
+  "email": "omar.gamal.fetyan@gmail.com",
+  "alumniOf": "Menoufia University",
+  "knowsAbout": ["Full-stack Development", "React", "Node.js", "Security Operations", "SIEM", "Splunk", "Threat Detection"],
+  "sameAs": ["https://github.com/Omar-gamal188"]
+}
+</script>
+</head>
+<body>
+
+<header class="statusbar">
+  <div class="wrap statusbar__inner">
+    <span class="statusbar__id">OGF</span>
+    <span class="statusbar__hide">Cairo, Egypt · UTC+3</span>
+    <span class="statusbar__spacer"></span>
+    <span class="statusbar__live"><i class="dot dot--pulse"></i> Open to work</span>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="wrap hero">
+    <p class="eyebrow">Full-stack developer &amp; junior SOC analyst</p>
+
+    <h1 class="hero__name">
+      <span>Omar</span>
+      <span class="thin">Gamal Fetyan</span>
+    </h1>
+
+    <div class="hero__meta">
+      <p class="hero__roles">
+        I <b>build</b> web applications,<br>then I <em>watch them</em> get attacked.
+      </p>
+      <div>
+        <p class="hero__blurb">
+          Two years shipping React and Node applications, now training as a SOC analyst —
+          writing Splunk detections for brute force, privilege escalation and log tampering.
+          Same systems, opposite end of the telescope.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn--solid" href="#work">View the work</a>
+          <a class="btn btn--ghost" href="mailto:omar.gamal.fetyan@gmail.com">Get in touch</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- SIGNATURE: detection feed -->
+    <div class="feed" aria-label="Career timeline shown as a security event feed">
+      <div class="feed__bar">
+        <i class="dot"></i>
+        <strong>omar.log</strong>
+        <span>source: career</span>
+        <span class="feed__count" id="feedCount">0 events</span>
+      </div>
+      <div class="feed__body" id="feed"></div>
+    </div>
+  </section>
+
+  <!-- TRACKS -->
+  <section class="wrap section">
+    <div class="section__head reveal">
+      <p class="section__num">01 — Positioning</p>
+      <h2 class="section__title">Two skills that keep<br>explaining each other</h2>
+      <p class="section__sub">
+        Most people hiring for security want someone who understands how software is actually
+        built. Most people hiring for web want someone who won't ship the vulnerability. I sit
+        in the overlap.
+      </p>
+    </div>
+
+    <div class="tracks reveal">
+      <div class="track">
+        <p class="track__tag"><i class="dot" style="background:var(--teal)"></i> Track A — Build</p>
+        <h3 class="track__title">Full-stack development</h3>
+        <p>
+          Freelance since 2023, building and deploying e-commerce storefronts, menu sites and
+          portfolio applications. React on the front, Node and Express behind it, everything
+          responsive and deployed to production rather than left in a repo.
+        </p>
+        <ul class="track__list">
+          <li>React</li><li>JavaScript</li><li>Node.js</li><li>Express</li>
+          <li>REST APIs</li><li>Bootstrap</li><li>HTML/CSS</li><li>Vercel</li>
+        </ul>
+      </div>
+
+      <div class="track">
+        <p class="track__tag"><i class="dot" style="background:var(--amber)"></i> Track B — Defend</p>
+        <h3 class="track__title">Security operations</h3>
+        <p>
+          Running a self-built SOC lab since 2025: ingesting Windows Security logs into Splunk,
+          writing SPL detections, correlating events into full attack chains, and visualising
+          them on a monitoring dashboard.
+        </p>
+        <ul class="track__list">
+          <li>Splunk / SIEM</li><li>SPL</li><li>Windows Event Logs</li><li>Log analysis</li>
+          <li>Event correlation</li><li>Threat detection</li><li>Incident triage</li><li>TCP/IP</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="wrap section" id="work">
+    <div class="section__head reveal">
+      <p class="section__num">02 — Selected work</p>
+      <h2 class="section__title">Things that are<br>live right now</h2>
+      <p class="section__sub">
+        Every link below opens a running application, not a screenshot.
+      </p>
+    </div>
+
+    <div class="projects reveal">
+
+      <article class="card card--wide">
+        <div class="card__top">
+          <div>
+            <p class="card__kind card__kind--sec">Security · Red + Blue team</p>
+            <h3 class="card__title">AttackWeb — attack &amp; detection lab</h3>
+          </div>
+          <a class="card__flag" href="#attackweb">Full breakdown ↓</a>
+        </div>
+        <p class="card__desc">
+          I built a deliberately vulnerable Node.js / MongoDB app, attacked it from Kali Linux
+          with six different techniques, then built a real-time SOC dashboard that caught every
+          one. 11,402 log entries, 6 attack categories, 100% detection. The whole offensive and
+          defensive cycle in one project — which is the exact combination most junior analysts
+          can't show.
+        </p>
+        <p class="card__note">
+          The sharpest find: a NoSQL login injection <b>looked</b> like it failed (401), but the
+          response took 334&nbsp;ms instead of the usual 2&nbsp;ms — the server had found a user
+          and was running bcrypt. Timing alone exposed the injection. That became a detection rule.
+        </p>
+        <div class="stack">
+          <span>Node.js</span><span>MongoDB</span><span>Kali Linux</span><span>Nikto</span>
+          <span>Splunk / SPL</span><span>Python</span><span>Socket.IO</span><span>MITRE ATT&amp;CK</span>
+        </div>
+        <div class="card__links">
+          <a href="#attackweb">Read the breakdown ↓</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__top">
+          <div>
+            <p class="card__kind">Web · E-commerce</p>
+            <h3 class="card__title">Venora</h3>
+          </div>
+        </div>
+        <p class="card__desc">
+          A storefront built as a React single-page application with hash routing, product
+          browsing and a component library reused across the catalogue and cart views.
+        </p>
+        <div class="stack"><span>React</span><span>JavaScript</span><span>Vercel</span></div>
+        <div class="card__links">
+          <a href="https://venora-shop.vercel.app/#/" target="_blank" rel="noopener">Live site ↗</a>
+          <a href="https://github.com/Omar-gamal188" target="_blank" rel="noopener">Code ↗</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__top">
+          <div>
+            <p class="card__kind">Web · Client work</p>
+            <h3 class="card__title">Corporate Innovation Platform</h3>
+          </div>
+        </div>
+        <p class="card__desc">
+          An internal platform for submitting, screening, evaluating and deciding on employee
+          improvement ideas, with role-based access control and a full audit trail on every
+          action. React (Vite) on the front end, Express and MongoDB behind it.
+        </p>
+        <div class="stack"><span>React</span><span>Node.js</span><span>MongoDB</span><span>Vercel</span></div>
+        <div class="card__links">
+          <a href="https://client-two-jade-13.vercel.app/" target="_blank" rel="noopener">Live site ↗</a>
+          <a href="https://github.com/Omar-gamal188/Corporate-Innovation-Platform" target="_blank" rel="noopener">Code ↗</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__top">
+          <div>
+            <p class="card__kind">Web · E-commerce</p>
+            <h3 class="card__title">Simple Store</h3>
+          </div>
+        </div>
+        <p class="card__desc">
+          A lighter storefront focused on product display, routing and a clean front-end
+          structure — built to get the fundamentals of layout and state right before scaling up.
+        </p>
+        <div class="stack"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        <div class="card__links">
+          <a href="https://simple-ecommerce-zuex.vercel.app/" target="_blank" rel="noopener">Live site ↗</a>
+          <a href="https://github.com/Omar-gamal188/simple-ecommerce" target="_blank" rel="noopener">Code ↗</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__top">
+          <div>
+            <p class="card__kind">Web · Hospitality</p>
+            <h3 class="card__title">La Norma menu</h3>
+          </div>
+        </div>
+        <p class="card__desc">
+          A responsive digital menu for a café — fast, static, and readable on a phone at a
+          table, which is the only device that matters for this use case.
+        </p>
+        <div class="stack"><span>HTML</span><span>CSS</span><span>GitHub Pages</span></div>
+        <div class="card__links">
+          <a href="https://omar-gamal188.github.io/La-Norma-menu/#" target="_blank" rel="noopener">Live site ↗</a>
+          <a href="https://github.com/Omar-gamal188/La-Norma-menu" target="_blank" rel="noopener">Code ↗</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__top">
+          <div>
+            <p class="card__kind">Python · Imaging</p>
+            <h3 class="card__title">Image Processing Toolkit</h3>
+          </div>
+        </div>
+        <p class="card__desc">
+          A Python toolkit for image manipulation and analysis, coming out of the AI coursework
+          at Menoufia. Add the filters and transforms it supports and this becomes the project
+          that proves the degree isn't just on paper.
+        </p>
+        <div class="stack"><span>Python</span><span>Image processing</span></div>
+        <div class="card__links">
+          <a href="https://github.com/Omar-gamal188/ImageProcessingToolkit" target="_blank" rel="noopener">Code ↗</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ATTACKWEB DEEP DIVE -->
+  <section class="wrap section aw" id="attackweb">
+    <div class="section__head reveal">
+      <p class="section__num">02.1 — Flagship · deep dive</p>
+      <h2 class="section__title">AttackWeb: I built it,<br>broke it, then caught myself</h2>
+      <p class="section__sub">
+        A full offensive-and-defensive exercise on a deliberately vulnerable web app. The point
+        wasn't just to find bugs — it was to prove I can sit on both sides: write the code, exploit
+        it like an attacker, and detect the exploit like an analyst.
+      </p>
+    </div>
+
+    <div class="aw__stats reveal">
+      <div class="aw__stat"><b>11,402</b><span>Log entries analysed</span></div>
+      <div class="aw__stat"><b>6</b><span>Attack categories</span></div>
+      <div class="aw__stat"><b>100%</b><span>Detection rate</span></div>
+      <div class="aw__stat"><b>334ms</b><span>The tell that gave it away</span></div>
+    </div>
+
+    <div class="aw__flow reveal">
+      <div class="aw__step">
+        <h4><i class="dot" style="background:var(--teal)"></i> <b>01 Build</b></h4>
+        <p>
+          A Node.js + Express + MongoDB app with JWT auth, seeded with real vulnerabilities:
+          unsanitised <code>$regex</code> search, an injectable login query, and no rate limiting
+          on the login route.
+        </p>
+      </div>
+      <div class="aw__step">
+        <h4><i class="dot" style="background:var(--alert)"></i> <b>02 Attack</b></h4>
+        <p>
+          From Kali: Nikto recon (8,101 requests in 23s), NoSQL injection, a regex data dump that
+          exposed the whole user table with the payload <code>.*</code>, a brute-force run, and two
+          privilege-escalation attempts.
+        </p>
+      </div>
+      <div class="aw__step">
+        <h4><i class="dot" style="background:var(--amber)"></i> <b>03 Detect</b></h4>
+        <p>
+          A Python watcher tails the JSON access log, classifies each request through detection
+          rules with a confidence score, and streams verdicts to a live browser dashboard over
+          Socket.IO. Backed by 12 Splunk queries for analysis at scale.
+        </p>
+      </div>
+    </div>
+
+    <div class="aw__attacks reveal">
+      <div class="aw__ah"><span>Attack</span><span>Result</span><span>MITRE</span></div>
+      <div class="aw__ar">
+        <div class="name">Nikto reconnaissance<em>Vulnerability scanning</em></div>
+        <div class="res res--part">INFO GATHERED</div>
+        <div class="mitre">T1595</div>
+      </div>
+      <div class="aw__ar">
+        <div class="name">NoSQL login injection<em>Blocked by bcrypt — caught on timing</em></div>
+        <div class="res res--part">PARTIAL</div>
+        <div class="mitre">T1190</div>
+      </div>
+      <div class="aw__ar">
+        <div class="name">Search regex data dump<em>Full user table exposed</em></div>
+        <div class="res res--hit">SUCCEEDED</div>
+        <div class="mitre">T1213</div>
+      </div>
+      <div class="aw__ar">
+        <div class="name">Brute force — 56 attempts<em>No lockout, no rate limit</em></div>
+        <div class="res res--hit">DETECTED</div>
+        <div class="mitre">T1110</div>
+      </div>
+      <div class="aw__ar">
+        <div class="name">Mass assignment (role:admin)<em>Server ignored the role field</em></div>
+        <div class="res res--block">BLOCKED</div>
+        <div class="mitre">T1078</div>
+      </div>
+      <div class="aw__ar">
+        <div class="name">Admin access with user token<em>Role check returned 403</em></div>
+        <div class="res res--block">BLOCKED</div>
+        <div class="mitre">T1078</div>
+      </div>
+    </div>
+
+    <p class="aw__note reveal">
+      Takeaway I keep coming back to: bcrypt stopped the login injection from fully succeeding even
+      though the query itself was injectable — defence in depth is real. And the attack that did the
+      most damage needed no tools at all, just a browser and one regex. Both lessons came from
+      watching my own logs.
+    </p>
+  </section>
+
+  <!-- CAPABILITIES -->
+  <section class="wrap section">
+    <div class="section__head reveal">
+      <p class="section__num">03 — Capability</p>
+      <h2 class="section__title">What I can be<br>handed on day one</h2>
+    </div>
+
+    <div class="matrix reveal">
+      <div class="mrow">
+        <div class="mrow__label">Security operations</div>
+        <div class="mrow__items">
+          <span>SIEM monitoring</span><span>Splunk</span><span>SPL</span><span>Log analysis</span>
+          <span>Windows Event Logs</span><span>Event correlation</span><span>Threat detection</span>
+          <span>Incident triage</span>
+        </div>
+      </div>
+      <div class="mrow">
+        <div class="mrow__label">Development</div>
+        <div class="mrow__items">
+          <span>JavaScript</span><span>React</span><span>Node.js</span><span>Express.js</span>
+          <span>REST APIs</span><span>Bootstrap</span><span>HTML5</span><span>CSS3</span><span>Python</span>
+        </div>
+      </div>
+      <div class="mrow">
+        <div class="mrow__label">Systems &amp; networking</div>
+        <div class="mrow__items">
+          <span>TCP/IP</span><span>Ports &amp; protocols</span><span>Windows</span><span>Linux</span>
+          <span>Bash</span><span>Windows CMD</span><span>Networking fundamentals</span>
+        </div>
+      </div>
+      <div class="mrow">
+        <div class="mrow__label">Languages</div>
+        <div class="mrow__items">
+          <span>Arabic — native</span><span>English — intermediate</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- CONTACT -->
+<footer class="wrap contact" id="contact">
+  <div class="contact__grid reveal">
+    <div>
+      <h2 class="contact__title">Let's talk.</h2>
+      <p class="contact__blurb">
+        Looking for a junior SOC analyst role, or front-end and full-stack work in Cairo
+        or remote. Fastest way to reach me is email.
+      </p>
+    </div>
+
+    <ul class="clist">
+      <li><a href="mailto:omar.gamal.fetyan@gmail.com"><span class="k">Email</span><span class="v">omar.gamal.fetyan@gmail.com</span></a></li>
+      <li><a href="tel:+201116513404"><span class="k">Phone</span><span class="v">+20 111 651 3404</span></a></li>
+      <li><a href="https://www.linkedin.com/in/omar-gamal-0322103a4/" target="_blank" rel="noopener"><span class="k">LinkedIn</span><span class="v">omar-gamal ↗</span></a></li>
+      <li><a href="https://github.com/Omar-gamal188" target="_blank" rel="noopener"><span class="k">GitHub</span><span class="v">Omar-gamal188 ↗</span></a></li>
+      <li><span class="plain"><span class="k">Based in</span><span class="v">Cairo, Egypt</span></span></li>
+    </ul>
+  </div>
+
+  <div class="edu reveal">
+    <div class="edu__label">Education</div>
+    <div class="edu__body">
+      <h3>Menoufia National University</h3>
+      <p>
+        BSc Artificial Intelligence · GPA 3.0 · expected 2027<br>
+        Coursework in operating systems, computer networks, database systems,
+        machine learning and cybersecurity fundamentals.
+      </p>
+    </div>
+  </div>
+
+  <div class="colophon">
+    <span>Omar Gamal Fetyan © 2026</span>
+    <span>Built from scratch — no template</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
