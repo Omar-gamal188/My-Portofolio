@@ -182,6 +182,38 @@
         </div>
       </article>
 
+      <article class="card card--wide">
+        <div class="card__top">
+          <div>
+            <p class="card__kind">Web · Full-stack SaaS</p>
+            <h3 class="card__title">Attendly — attendance &amp; academic platform</h3>
+          </div>
+        </div>
+        <p class="card__desc">
+          A production platform for schools and tutoring centres. Teachers run live sessions that
+          students check into by scanning a rotating QR code, with no-shows marked absent
+          automatically. It covers grades (including a bulk Excel import with validation preview),
+          homework and a parent portal, across six roles from manager to parent, fully bilingual
+          Arabic/English with RTL.
+        </p>
+        <p class="card__note">
+          Built security-first: argon2 hashing, short-lived JWT + refresh tokens, mandatory TOTP 2FA
+          for admins, and Redis-backed rate limiting that holds across serverless instances. Parent
+          codes use a lookup-id + secret scheme, so each attempt costs one indexed lookup and
+          <b>exactly one</b> hash check instead of scanning every user. A honeypot layer of fake admin
+          routes and canary credentials logs intruders, and the app refuses to boot if a dev
+          environment is pointed at the production database.
+        </p>
+        <div class="stack">
+          <span>NestJS</span><span>Next.js 16</span><span>React 19</span><span>MongoDB Atlas</span>
+          <span>Tailwind CSS</span><span>Upstash Redis</span><span>TypeScript</span><span>Jest</span>
+          <span>Vercel</span>
+        </div>
+        <div class="card__links">
+          <a href="https://attendly-edu.vercel.app" target="_blank" rel="noopener">Live site ↗</a>
+        </div>
+      </article>
+
       <article class="card">
         <div class="card__top">
           <div>
